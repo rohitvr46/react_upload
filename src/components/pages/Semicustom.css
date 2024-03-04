@@ -1,0 +1,53 @@
+
+.service-head-main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.semi-custom-container1{
+    border: none;
+    padding: 5%;
+    margin: 5%;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0.1, 0.1, 0.1, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(0.5px);
+    height: auto;
+    outline: none;
+}
+
+.semi-heading{
+    font-family: 'Kaisei HarunoUmi', serif;
+    color: #06ce06;
+    font-size: 30px;
+}
+
+.semi-content{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+ 
+.semi-key-point{
+    border: none;
+    padding: 2%;
+    margin: 1%;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0.1, 0.1, 0.1, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(0.5px);
+    height: auto;
+    outline: none;
+}
+
+.semi-key-points-content{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.change-color{
+    color: #06ce06;
+    font-family: 'Montserrat', sans-serif;
+}

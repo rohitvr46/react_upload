@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact-head{
+    height: auto;
+    background-color: #06c633;
+}
+
+.add1{
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #06c633;
+}
+.space{
+    width: 5%;
+}
+
+
+.address{
+    line-height: 1.6;
+    color: #fff;
+}
+
+
+.Mainlast{
+    background-color: #06c633;  
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    height: 110px;
+    /* border: 1px solid black; */
+}
+
+.header{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 19px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+.contbt{
+    padding: 15px 35px;
+    border: 3px solid white;
+    background-color: #06c633;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.contbt:hover{
+    color: #06c633;
+    background-color: white;
+    cursor: pointer;
+}
+

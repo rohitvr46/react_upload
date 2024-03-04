@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
+
+
+
+.button-position{
+    margin-right: 55px;
+}
+.btn{
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: #8c8e95;
+    cursor: pointer;
+    font-family: 'Kaisei HarunoUmi', serif;
+    background-color: transparent;
+    font-size: 15px;
+    width: 148px;
+    /* border: 1px solid yellow; */
+}
+
+.btn:hover{
+    padding: 6px 18px;
+    transition: all 0.3s;
+    background-color: transparent;
+    color: #06c633;
+    border-radius: 4px;
+    
+}

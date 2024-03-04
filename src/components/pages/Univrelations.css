@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.full-flip{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.flip-maincontainer{
+    position: relative;
+    width: 300px;
+    height: 320px;
+    background-color: #fff;
+
+}
+
+.flip-img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.flip-thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background: #fff;
+}
+
+.flip-thecard:hover{
+    transform: rotateY(180deg);
+}
+
+.flip-thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image:url('../students11.png') ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.flip-thefront1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image:url('../educators1.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.flip-thefront2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image:url('../researchers1.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.flip-thefront-head{
+    /* border: 1px solid white; */
+    margin-top: 130px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 30px;
+}
+
+.flip-theback-para1{
+    /* border: 1px solid white; */
+    margin-top: 35px;
+    text-align: center;
+    line-height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flip-theback-para2{
+    /* border: 1px solid white; */
+    margin-top: 20px;
+    text-align: center;
+    line-height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flip-theback-para3{
+    /* border: 1px solid white; */
+    margin-top: 60px;
+    text-align: center;
+    line-height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flip-theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #06c633;
+    color: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transform: rotateY(180deg);
+    padding: 10px;
+}
+
+
+/* highlights */
+
+.Uni-highlight{
+    border: 1px solid #06c633;
+    background-color: #06c633;
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    margin-left: 150px;
+    border-radius: 10px;
+    padding: 22px;
+    
+}
+.Uni-highlight1{
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 30px;
+}
+.gard-head{
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 30px;
+}
+
+.grad-para{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+/* grad and interns */
+
+.Uni-grad-and-intern{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.grad-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Uni-grad-and-intern{
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.grad-imgs{
+    margin-left: 200px;
+}
+
+.grad-para{
+    margin-top: 40px;
+    /* border: 1px solid black; */
+    text-align: left;
+    width: 700px;
+    font-size: 19px;
+}
+
+.gard-head-and-para{
+    margin-left: 100px;
+}
+
+/*part-2 */
+
+.grad-img1{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.grad-imgs1{
+    margin-left: 100px;
+}
+
+.gard-head-and-para1{
+    margin-left: 250px;
+}
+
+.uni-full3{
+    padding-bottom: 350px;
+}

@@ -1,0 +1,125 @@
+
+
+.career-heading{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    font-size: 30px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    /* border: 1px solid black; */
+}
+
+.why-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.why-img{
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    object-fit: contain;
+}
+
+.why-para{
+    /* border: 1px solid black; */
+    font-size: 20px;
+    width: 630px;
+    text-align: left;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+}
+
+/* Job openings */
+
+.Job-heading{
+    padding: 22px;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 85%;
+    margin-left: 110px;
+    border-radius: 10px;
+    background-color: #06c633;
+    color: #fff;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.graduate-intern{
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    padding-left: 160px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    margin-right: 40px;
+}
+
+
+
+.job-contanier{
+    /* border: 1px solid black; */
+    width: 85%;
+    margin-left: 110px;
+
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 90px;
+    margin-bottom: 2px;
+    height: 15px;
+    width: 15px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  }
+
+.down {
+    transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* .role-requirements{
+    border : 2px solid black;
+} */
+
+.down-arrow-button{
+    float: right;
+    height:44px;
+    width: 60px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.education-career,.job-location,.role-requirements{
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 30px;
+}
+
+.edu-list{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    list-style: circle; 
+}
+
+.dropdown-content{
+    /* border: 1px solid black; */
+    margin-left: 15px;
+}
+
+
+
+
+

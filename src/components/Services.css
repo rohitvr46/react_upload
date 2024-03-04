@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+
+
+
+.main-service{
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 150px;
+    
+}
+.coffee{
+    color: #515151;
+    font-size: 30px;
+}
+
+.head-ser{
+    font-weight: lighter;
+    border: 1px solid #06c633;
+    background-color: #06c633;
+    color: #fff;
+    width: 80%;
+    margin-left: 150px;
+    border-radius: 10px;
+    padding: 22px;
+    font-size: 30px;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.bolt-icon{
+    color: #515151;
+    font-size: 20px;
+    font-family: 'Kaisei HarunoUmi', serif;
+
+}
+
+
+.services-btm{
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+
+.service{
+    text-align: center;
+
+}
+
+.ser-btm{
+    padding: 65px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    height: 200px;
+
+}
+
+.ser-btm:hover{
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    color: #06c633;
+}
+
+.ser-btm:hover .bolt-icon{
+    color: #06c633;
+}
+
+.ser-btm:hover .coffee{
+    color: #06c633;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.intermiami{
+    display:flex;
+    justify-content: space-around;
+}
+
+.triangle-left {
+	width: 0%;
+	height: 0%;
+	border-top: 10px solid transparent;
+	border-right: 15px solid #555;
+	border-bottom: 10px solid transparent;
+}
+
+.triangle-right{
+    width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 15px solid #555;
+	border-bottom: 10px solid transparent;
+    rotate: 180deg;
+}
+
+.car-head1{
+    font-weight: lighter;
+    border: 1px solid #06c633;
+    background-color: #06c633;
+    width: 80%;
+    color: #fff;
+    margin-right: 190px;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+

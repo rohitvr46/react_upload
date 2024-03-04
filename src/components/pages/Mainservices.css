@@ -1,0 +1,60 @@
+
+.service-head-main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.semi-custom-container{
+    border: none;
+    padding: 5%;
+    margin: 5%;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0.1, 0.1, 0.1, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(0.5px);
+    height: auto;
+    outline: none;
+}
+
+.semi-heading{
+    font-family: 'Kaisei HarunoUmi', serif;
+    color: #06ce06;
+}
+
+.semi-content{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+ 
+
+.semi-custom-button{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #06ce06;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #06ce06;
+    color: #fff;
+}
+
+.semi-custom-button:hover{
+    color: #06ce06;
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+
+.semi-arrow-right{
+    font-size: 20px;
+}
+
+.semi-custom-link{
+    position: relative;
+}
+
+.semi-custom-container:hover{
+    background-color: #fff;
+    transform: translateX(25px);
+    transition: transform 1s;
+}

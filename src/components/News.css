@@ -1,0 +1,162 @@
+
+
+/* @layer base{
+    body{
+        background-color: white;
+    }
+} */
+
+.full{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.tech-heading{
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 30px;
+}
+
+
+.heading{
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #06c633;
+    width: 85%;
+    background-color: #06c633;
+    color: #fff;
+    border-radius: 10px;
+    padding: 22px;
+    
+}
+
+
+.review{
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+}
+
+.more1{
+    font-size: 14px;
+    border: none;
+    margin-top: 11px;
+    padding: 10px;
+    background-color: white;
+    margin-right: 150px;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.more1:hover{
+    cursor: pointer;
+    color: #06c633;
+    transition: .5s ease-out;
+}
+.material-symbols-outlined{
+    float: right;
+}
+
+.all{
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    height: 650px;
+    /* border: 1px solid black; */
+}
+
+.all1{
+    margin-top: 5rem;
+    width: 100%;
+    margin-left: 100px;
+    /* border: 1px solid black; */
+    width: auto;
+    margin-right: 100px;
+}
+.card{
+    border: 1px solid black;
+    background-color: #fff;
+    height: 390px;
+    color: #000;
+    border-radius: 0.75rem;
+    width: 80%;
+    
+}
+
+.card1{
+    border-top-left-radius: 0.75rem; /* Assuming 0.75rem is the desired border radius for the top left corner */
+    border-top-right-radius: 0.75rem;
+    /* background-color: #06c633; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14rem;
+    /* border: 1px solid black; */
+}
+
+.card-inside{
+    height: 12rem;
+    width: 18rem;
+    
+
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+
+.font{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-left: 5px;
+    text-align: center;
+    font-family: 'Kaisei HarunoUmi', serif;
+    /* border: 1px solid black; */
+}
+
+.font:hover{
+    cursor: grab;
+}
+
+.bt{
+    border-radius: 5px;
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 1.125rem;
+    color: #fff;
+    background-color: #06c633;
+    border: 1px solid white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bt:hover{
+    cursor: pointer;
+    color: #06c633;
+    background-color: #fff;
+    border-color: #06c633;
+}
+
+.custom-slider .slick-prev::before,
+.custom-slider .slick-next::before {
+  color: black; /* Change this to your desired arrow color */
+  font-size: 24px; /* Adjust the font size if needed */
+}
+
+.custom-slider .slick-prev:hover::before,
+.custom-slider .slick-next:hover::before {
+  color: #06c633; /* Change this to your desired arrow color on hover */
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+}

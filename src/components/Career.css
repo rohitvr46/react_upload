@@ -1,0 +1,93 @@
+
+
+
+
+
+.car-head{
+    text-align: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    
+}
+
+.car-head1{
+    font-weight: lighter;
+    border: 1px solid #06c633;
+    background-color: #06c633;
+    width: 80%;
+    color: #fff;
+    margin-left: 150px;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+
+.full-car{
+    display: flex;
+    /* border: 1px solid black; */
+    margin: 10px;
+    text-align: left;
+    height: 400px;
+    margin-left: 60px;
+}
+
+.img-car{
+    height: 350px;
+    width: 450px;
+    /* border: 1px solid black; */
+    margin-left: 70px;
+}
+.img-car1{
+    height: 250px;
+    width: 350px;
+    align-items: center;
+    margin: 50px;
+    border-radius: 10px;
+
+}
+
+.car-content{
+    /* border: 1px solid black; */
+    margin-left: 100px;
+    font-size: 20px;
+    
+}
+.car-content1{
+    /* border: 1px solid black; */
+    margin-top: 80px;
+    line-height: 30px;
+    width:620px;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.car-btn{
+    align-items: center;
+    border: none;
+    background-color: #fff;
+    font-size: 14px;
+    float: left;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.car-btn:hover{
+    color: #06c633;
+    transition: .5s ease-out;
+    cursor: pointer;
+}
+
+.car-link{
+    position: relative;
+}
+
+.right-arrow-car{
+    position: relative;
+    color: #fff;
+}
+
+.right-arrow-car:hover{
+    color: #06c633;
+    transition: .5s ease-out;
+}
+.empty-space{
+    padding: 30px;
+}

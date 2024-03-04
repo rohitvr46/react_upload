@@ -1,0 +1,28 @@
+/* Add this CSS to your existing styles or create a new CSS file */
+
+/* Style for the dropdown menu */
+.dropdown-menu-custom {
+    display: none; /* Hide the dropdown by default */
+    position: absolute;
+    background-color: #fff; /* Adjust the background color */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add a box shadow for styling */
+    z-index: 1; /* Ensure the dropdown appears above other elements */
+    top:59px;
+    width: 250px;
+    right: 520px;
+    border-radius: 10px;
+  }
+  
+  /* Style for each dropdown item */
+  .dropdown-menu-custom a {
+    padding: 1px 16px;
+    display: block;
+    color: #333; /* Adjust the text color */
+    text-decoration: none;
+  }
+  
+  /* Style for the parent menu item on hover */
+  .nav-item:hover .dropdown-menu-custom {
+    display: block; /* Show the dropdown when the parent is hovered */
+  }
+  
