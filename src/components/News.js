@@ -60,13 +60,13 @@ const data = [
         name: 'Header',
         img: 'https://media.istockphoto.com/id/178447404/photo/modern-business-buildings.jpg?s=612x612&w=0&k=20&c=MOG9lvRz7WjsVyW3IiQ0srEzpaBPDcc7qxYsBCvAUJs=',
         review: 'xEV,ADAS and Industrial automation drive the need for cutting edge ASICs.High performance read out for MEMS pressure sensors.',
-        readMoreLink: '/semi-custom'
+        readMoreLink: '/'
     },
     {
         name: 'Header',
         img: 'https://media.istockphoto.com/id/178447404/photo/modern-business-buildings.jpg?s=612x612&w=0&k=20&c=MOG9lvRz7WjsVyW3IiQ0srEzpaBPDcc7qxYsBCvAUJs=',
         review: 'xEV,ADAS and Industrial automation drive the need for cutting edge ASICs.High performance read out for MEMS pressure sensors.',
-        readMoreLink: '/high-voltage'
+        readMoreLink: '/'
     },
     {
         name: 'Header',

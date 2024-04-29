@@ -1,15 +1,12 @@
-import './Univrelations.css'
 import './Highvoltage.css'
 import Contact1 from "../Contact1";
 import Copyright from "../Copyright";
-import Student from '../students.jpg'
-import Research from '../researchers.jpg'
-import Educator from '../educators.jpg'
 import React, { useState } from "react";
 import { useEffect } from 'react';
 import { Button } from "../Button";
 import { Link } from 'react-router-dom';
 import "../Navbar.css";
+import Navbar1 from '../Navbar1';
 import Dropdown from "../Dropdown";
 import "../Dropdown.css";
 import { MenuItems } from "../MenuItems";
@@ -17,7 +14,6 @@ import MyImage from "../logo2.jpg";
 import DropdownCustom from '../DropdownCustom';
 import { useNavigate } from 'react-router-dom';
 import Find from '../find.png'
-import Navbar1 from '../Navbar1';
  
 export default function Highvoltage(){
 
@@ -127,31 +123,31 @@ export default function Highvoltage(){
     <>
     <Navbar1/>
     <br/>
-    {/* start of univ relations */}
+    {/* start of high voltage */}
     <div className="service-head-main">
       <div className="semi-custom-container1">
-        <h1 className="semi-heading">FULL-CUSTOM IC LAYOUTS</h1>
+        <h1 className="semi-heading">HIGH-VOLTAGE IC LAYOUTS</h1>
         <br/>
-        <p className="semi-content">We involve ourself designing every transistor and interconnect in the integrated circuit from scratch, without relying on pre-designed or standardized components. This approach offers us maximum flexibility and allows us to optimize the circuit for specific performance metrics, such as speed, power consumption, and area.</p>
+        <p className="semi-content">Our High-voltage integrated circuit (IC) layouts involve designing circuits that can operate at voltages significantly higher than those typically found in standard ICs. These circuits are commonly used in power management, automotive applications, industrial control systems, and other areas where high-voltage requirements are necessary.</p>
         <br/>
-        <b className="semi-content">Here are some key characteristics and considerations we take in full custom IC layouts:</b>
+        <b className="semi-content">Designing IC layouts for high-voltage applications comes with several unique challenges and considerations:</b>
         <br/>
         <div className="semi-key-point">
           <p className="semi-key-points-content">
-          <span className="change-color">Transistor-Level Design:</span><br/><br/>We manually place and size individual transistors to implement the desired logic functions, analog circuits, and other components of the IC. This level of control enables precise optimization for performance and power.<br/><br/>
-<span className="change-color">Custom Interconnect:</span><br/><br/>Interconnects between transistors and components are designed and laid out according to the specific requirements of the circuit. Routing and wire widths are carefully chosen to minimize delays, crosstalk, and parasitic effects.<br/><br/>
-<span className="change-color">Design Tools:</span><br/><br/>Specialized design tools are used for layout, simulation, and verification of full custom ICs. These tools provide features for transistor-level design, layout extraction, parasitic extraction, timing analysis, and more.<br/><br/>
-<span className="change-color">Complexity and Time-to-Market:</span><br/><br/>Full custom IC design is a highly complex and time-consuming process compared to semi-custom or standard cell-based design methodologies. Designing every component from scratch requires a deep understanding of semiconductor physics, circuit design principles, and manufacturing processes.<br/><br/>
-<span className="change-color">Performance Optimization:</span><br/><br/>With full control over the layout and transistor sizing, we can optimize the circuit for specific performance metrics, such as speed, power consumption, and noise immunity. This level of optimization is often necessary for high-performance applications such as microprocessors, high-speed communication interfaces, and analog circuits.<br/><br/>
-<span className="change-color">Cost Considerations:</span><br/><br/>Full custom IC design can be expensive due to the extensive design effort, specialized tools, and potential manufacturing iterations required to achieve desired performance targets. However, for certain applications where performance is critical and economies of scale are favourable, the benefits of full customization may outweigh the costs.<br/><br/>
-In summary, our full custom IC layouts offer the highest level of design flexibility and optimization we apply our significant expertise, resources, and time.
+          <span className="change-color">Isolation Techniques:</span><br/><br/>We often use isolation between different functional blocks to prevent voltage breakdown and ensure safety for high voltage designs. Isolation techniques such as deep trench isolation, guard rings, and specialized isolation structures are implemented in the layout to maintain electrical isolation between circuit elements.<br/><br/>
+<span className="change-color">Thick Oxide Layers:</span><br/><br/>To withstand high voltages, the gate oxide layers in transistors need to be thicker compared to standard ICs. We must ensure that the layout accommodates the thicker oxide layers while maintaining proper device performance and reliability.<br/><br/>
+<span className="change-color">Spacing and Clearance:</span><br/><br/>High-voltage IC layouts require increased spacing and clearance between conductive traces and components to prevent arcing and breakdown at high voltages. Layout rules and design guidelines must be followed to meet safety and reliability requirements.<br/><br/>
+<span className="change-color">Guard Rings and Rings of Protection:</span><br/><br/>Guard rings are commonly used in high-voltage layouts to minimize electric field distortion and prevent voltage breakdown. Rings of protection are also implemented around sensitive circuit elements to mitigate the effects of high-voltage transients and improve reliability.<br/><br/>
+<span className="change-color">High-Voltage Transistors:</span><br/><br/>Specialized high-voltage transistors with enhanced breakdown voltage capabilities are used in high-voltage IC layouts. These transistors typically have larger dimensions and specific doping profiles to withstand higher voltages while maintaining proper performance.<br/><br/>
+<span className="change-color">Shielding and Grounding:</span><br/><br/>We implement proper shielding and grounding techniques which are essential in high-voltage layouts to minimize electromagnetic interference (EMI) and ensure signal integrity. We also add grounding planes and shields which will be strategically placed in the layout to reduce noise and improve overall circuit performance.<br/><br/>
+In summary, we design layouts for high-voltage integrated circuits with careful consideration of isolation techniques, spacing requirements, transistor design, shielding, and reliability testing. By addressing these challenges effectively, we develop high-voltage IC layouts that meet stringent performance, safety, and reliability requirements.
 
           </p>
         </div>
       </div>
     </div>
      <Contact1/>
-    <Copyright/>  
-        </>
+    <Copyright/>
+    </>
     )
 }

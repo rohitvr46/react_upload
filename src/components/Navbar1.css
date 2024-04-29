@@ -9,7 +9,7 @@
   background-image: url("./backing.jpg");
 }
 .container1{
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.1);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100px;
@@ -29,7 +29,9 @@
   color: #06c633;
   transition: 0.5s all ease;
 }
-
+.nav-links6{
+  display: none;
+}
 .set1{
   color: #8c8e95;
   /* border: 1px solid white; */
@@ -45,7 +47,7 @@
 }
 
 .navbar {
-  /*background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);*/
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
   height: 82px;
   display: flex;
   justify-content: center;
@@ -248,43 +250,68 @@
   }
 
   .nav-menu {
-    display: flex;
+    display: none; /* Changed to none to hide it by default */
     flex-direction: column;
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 10px;
+    top: 0px;
     left: -100%;
-    opacity: 1;
-    transition: all 5s ease;
+    opacity: 0; /* Changed to 0 to hide it by default */
+    transition: all 0.5s ease; /* Keep transition uniform */
+    /* border: 1px solid white; */
   }
 
   .nav-menu.active {
-    background: white;
+    display: flex; /* Ensure it's displayed */
+    background: black;
     left: 0;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 1;
+    opacity: 1; /* Ensure it's fully visible when active */
+    z-index: 1; /* Ensure it's above other content */
   }
 
-  .nav-links {
+  .nav-links , .nav-links1{
     text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
+    margin-top: 10px;
+  }
+
+  .nav-links6{
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+    margin-top: 10px;
+    color: #8c8e95;
+    font-family: 'Kaisei HarunoUmi', serif;
   }
 
   .nav-links:hover {
     background-color: #06c633;
-    border-radius: 0;
+    color: #fff;
+    
+  }
+
+  .nav-links1:hover {
+    background-color: #06c633;
+    color: #fff;
+    
+  }
+
+  .nav-links6:hover {
+    background-color: #06c633;
+    color: #fff;
+    
   }
 
   .navbar-logo {
     position: absolute;
-    top: 100px;
-    left: 0;
-    transform: translate(15%, -60%);
-    display: none;
+    top: 0; /* Adjusted to top */
+    left: 0; /* Ensure it starts from the left */
+    transform: translate(0%, 0%); /* Adjust as needed */
+    display: block; /* Ensure it's always displayed */
   }
 
   .menu-icon {
@@ -292,13 +319,14 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(100%, 60%);
+    transform: translate(-100%, 60%); /* Adjusted */
     font-size: 1.8rem;
     cursor: pointer;
+    z-index: 2; /* Ensure it's above the menu */
   }
 
   .fa-times {
-    color: #fff;
+    color: red;
     font-size: 2rem;
   }
 
@@ -316,7 +344,7 @@
   }
 
   .nav-links-mobile:hover {
-    background: #fff;
+    background: black;
     color: #06c633;
     border:1px solid #06c633;
     transition: 250ms;

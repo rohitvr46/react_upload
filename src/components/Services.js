@@ -18,10 +18,10 @@ const Services = () => {
         <a href='/semi-custom'><button className='ser-btm'><FontAwesomeIcon icon={faSliders} className='coffee' /><br/><br/><p className='bolt-icon'>Semi-Custom IC Layouts</p></button></a>
       </div>
       <div className='sevices-btm'>
-      <a href='/high-voltage'><button className='ser-btm'><FontAwesomeIcon icon={faMicrochip} className='coffee' /><br/><br/><p className='bolt-icon'>Full-Custom IC Layouts</p></button></a>
+      <a href='/full-custom'><button className='ser-btm'><FontAwesomeIcon icon={faMicrochip} className='coffee' /><br/><br/><p className='bolt-icon'>Full-Custom IC Layouts</p></button></a>
       </div>
       <div className='sevices-btm'>
-      <a href='/mixed-signal'><button className='ser-btm'><FontAwesomeIcon icon={faBolt} className='coffee' /><br/><br/><p className='bolt-icon'>High-Voltage IC Layouts</p></button></a>
+      <a href='/high-voltage'><button className='ser-btm'><FontAwesomeIcon icon={faBolt} className='coffee' /><br/><br/><p className='bolt-icon'>High-Voltage IC Layouts</p></button></a>
       </div>
       {/* <div className='sevices-btm'>
       <a href='/standard-cell'><button className='ser-btm'><FontAwesomeIcon icon={faBolt} className='coffee' /><br/><br/><p className='bolt-icon'>Standard Cell</p></button></a>

@@ -100,7 +100,7 @@
     justify-content: center;
     opacity: 0;
     align-items: center;
-    color: #fff; /* Text color */
+    color: black; /* Text color */
     padding: 20px; /* Adjust padding as needed */
     text-align: center;
     border-radius: 20px;
@@ -124,6 +124,5 @@
 .hover-content:hover > *{
     transform: translateY(-25px);
     transition: transform 0.6s;
-    margin-top: 40px;
+    margin-top: 45px;
 }
-

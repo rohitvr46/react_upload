@@ -157,6 +157,12 @@ function Navbar1() {
             UNIVERSITY RELATIONS
             </Link>
           </li>
+
+          <li className="nav-item">
+            <Link to="/univrelations" className="nav-links6" onClick={closeMobileMenu}>
+            CONTACT US
+            </Link>
+          </li>
           
 </ul>
         <Button />

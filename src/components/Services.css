@@ -85,10 +85,10 @@
   'opsz' 24
 }
 
-.intermiami{
+/* .intermiami{
     display:flex;
     justify-content: space-around;
-}
+} */
 
 .triangle-left {
 	width: 0%;
@@ -117,3 +117,37 @@
     font-family: 'Kaisei HarunoUmi', serif;
 }
 
+
+@media only screen and (max-width: 960px){
+    @media only screen and (max-width: 960px) {
+        .head-ser, .car-head1 {
+            margin: 0 10px; /* Adjust margin to be responsive */
+            text-align: center;
+        }
+    
+        .main-service {
+            flex-direction: column;
+            height: auto; /* Adjust height to be auto for flexibility */
+            margin: 0 10px; /* Adjusted for responsiveness */
+            text-align: center;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    
+        .ser-btm {
+            margin: 10px 0; /* Add some space around buttons */
+            padding: 10px; /* Adjust padding for content fit */
+            width: 90%; /* Make width responsive */
+            height: auto; /* Allow height to adjust based on content */
+            max-width: 200px; /* Limit max width to maintain form factor */
+        }
+    
+        .services-btm {
+            height: auto; /* Adjust based on content */
+            width: 90%; /* Make width responsive */
+            max-width: 200px; /* Limit width */
+            margin: 10px auto; /* Center align */
+        }
+    }
+    
+}

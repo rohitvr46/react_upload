@@ -5,9 +5,19 @@
     border-radius: 20px;
 }
 
+.team-image-alt1{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
 .team-image{
     display: flex;
     justify-content: space-evenly;
+}
+
+.semi-content{
+    text-align: justify;
 }
 
 .semi-content1{
@@ -16,6 +26,7 @@
     /* border: 1px solid black; */
     margin-left: 30px;
     padding-top: 40px;
+    text-align: justify;
 }
 
 .semi-content2{
@@ -23,5 +34,19 @@
     font-size: 15px;
     /* border: 1px solid black; */
     margin-left: 30px;
-    padding-top: 40px;
+    padding-top: 60px;
+    text-align: justify;
+}
+
+.semi-key-points-content{
+    text-align: justify;
+}
+
+.semi-content3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    /* border: 1px solid black; */
+    margin-left: 30px;
+    padding-top: 60px;
+    text-align: justify;
 }

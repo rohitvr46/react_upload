@@ -125,7 +125,7 @@ export default function Aboutus(){
   return (
     <>
     <Navbar1/>
-    {/* start of univ relations */}
+    {/* start of about us */}
     <br/>
     <div className="service-head-main">
       <div className="semi-custom-container1">
@@ -167,8 +167,8 @@ With our layout expertise and proven experience with CMOS and BCD technologies i
         <div className='team-image'>
             <img src={vision} alt='team-img' className='team-image-alt'/>
         <p className='semi-content2'>
-        We have reputable and current understanding of tools, foundries, and processes thanks to our work and our well-regarded training programs.
-        Our team members have at least a bachelor's degree in engineering, so we can communicate on a very technical level with your design teams. We function as an extension of your own design teams, integrating all vital IC Layout components into a simplified business strategy.
+        We're dedicated to staying at the forefront of automation, research, and development.
+Serving the unique needs of each of our customers is something we are committed to doing. We're dedicated to being the industry leader in IC layout and assisting our clients in getting the best outcomes possible for the technology node they've chosen.
                 </p>
         </div>
         <br/>
@@ -176,10 +176,9 @@ With our layout expertise and proven experience with CMOS and BCD technologies i
         <h1 className="semi-heading">OUR MISSION</h1>
         <br/>
         <div className='team-image'>
-            <img src={mission} alt='team-img' className='team-image-alt'/>
-        <p className='semi-content1'>
-        We have reputable and current understanding of tools, foundries, and processes thanks to our work and our well-regarded training programs.
-        Our team members have at least a bachelor's degree in engineering, so we can communicate on a very technical level with your design teams. We function as an extension of your own design teams, integrating all vital IC Layout components into a simplified business strategy.
+            <img src={mission} alt='team-img' className='team-image-alt1'/>
+        <p className='semi-content3'>
+        Our goal is to foster creativity by providing our clients with top-notch IC layout design solutions so they can realize their ideas. Our dedication lies in pushing the limits of semiconductor design, promoting advancement and adding value for our clients and partners.
                 </p>
         </div>
         <br/>

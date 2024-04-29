@@ -72,12 +72,12 @@ export const MenuItems = [
         },
         {
             title: 'Full-Custom IC Layout',
-            path : '/high-voltage',
+            path : '/full-custom',
             cName : 'dropdown-link',
         },
         {
             title: 'High-Voltage IC Layout',
-            path : '/mixed-signal',
+            path : '/high-voltage',
             cName : 'dropdown-link',
         },
         

@@ -2,9 +2,9 @@ import React from 'react'
 import Navbar from './Navbar';
 import Home from './Home';
 import News from './News';
-import Featuresbus from './Featuresbus';
+import Universityrelations from './Universityrelations';
 import Career from './Career';
-import Slider2 from './Slider2';
+import Clients from './Clients';
 import Contact from './Contact';
 import Services from './Services';
 import Copyright from './Copyright';
@@ -24,9 +24,9 @@ const Mainhome = () => {
       <Navbar/>
       <Home/>
       <Services/>
-      <Slider2/>
+      <Clients/>
       {/* <News/> */}
-      <Featuresbus/>
+      <Universityrelations/>
       <Career/>
       <Contact1/>
       <Copyright/>

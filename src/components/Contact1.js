@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact1.css';
-import Pc from './EPIC.jpg';
+import Pc from './EPIC2.jpg';
 import LinkedInIcon from './LinkedInIcon';
 
 const Contact1 = () => {
@@ -13,7 +13,7 @@ const Contact1 = () => {
         <b className='about-us-head'>In relation to us</b><br/><br/>
         <ul className='about-us-list'>
             <li className='list-items'><a className='list-items' href='/careers'>Careers</a></li><br/>
-            <li className='list-items'><a className='list-items' href="contactus">About Us</a></li><br/>
+            <li className='list-items'><a className='list-items' href="/about-us">About Us</a></li><br/>
             <li className='list-items'><a className='list-items' href='/careers'>University Relations</a></li><br/>
             <li className='list-items'><a className='list-items' href="contactus">Contact Us</a></li><br/>
         </ul>
@@ -22,8 +22,8 @@ const Contact1 = () => {
         <b className='about-us-head'>IC Layout Services</b><br/><br/>
         <ul className='about-us-list'>
             <li className='list-items'><a className='list-items' href='/semi-custom'>Semi-Custom IC Layout</a></li><br/>
-            <li className='list-items'><a className='list-items' href='/high-voltage'>Full-Custom IC Layout</a></li><br/>
-            <li className='list-items'><a className='list-items' href='/mixed-signal'>High-Voltage IC Layout</a></li><br/>
+            <li className='list-items'><a className='list-items' href='/full-custom'>Full-Custom IC Layout</a></li><br/>
+            <li className='list-items'><a className='list-items' href='/high-voltage'>High-Voltage IC Layout</a></li><br/>
         </ul>
       </div>
       <div className='contact-address'>
